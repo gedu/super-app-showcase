@@ -304,6 +304,9 @@ importers:
       react-test-renderer:
         specifier: 'catalog:'
         version: 19.2.8(react@19.2.8)
+      repack-atlas:
+        specifier: file:../../../repack-atlas
+        version: file:../repack-atlas(@callstack/repack@5.3.0(@babel/core@7.29.7(supports-color@8.1.1))(@module-federation/enhanced@2.8.1(@rspack/core@2.1.7(@module-federation/runtime-tools@2.8.1)(@swc/helpers@0.5.23))(typescript@6.0.3)(webpack@5.109.2))(@rspack/core@2.1.7(@module-federation/runtime-tools@2.8.1)(@swc/helpers@0.5.23))(react-native@0.86.2(@babel/core@7.29.7(supports-color@8.1.1))(@react-native-community/cli@20.2.0(supports-color@8.1.1)(typescript@6.0.3))(@react-native/jest-preset@0.86.2(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.8)(supports-color@8.1.1))(@react-native/metro-config@0.86.2(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(@types/react@19.2.18)(react@19.2.8)(supports-color@8.1.1))(supports-color@8.1.1)(webpack@5.109.2))
       super-app-showcase-sdk:
         specifier: workspace:*
         version: link:../sdk
@@ -458,6 +461,9 @@ importers:
       react-test-renderer:
         specifier: 'catalog:'
         version: 19.2.8(react@19.2.8)
+      repack-atlas:
+        specifier: file:../../../repack-atlas
+        version: file:../repack-atlas(@callstack/repack@5.3.0(@babel/core@7.29.7(supports-color@8.1.1))(@module-federation/enhanced@2.8.1(@rspack/core@2.1.7(@module-federation/runtime-tools@2.8.1)(@swc/helpers@0.5.23))(typescript@6.0.3)(webpack@5.109.2))(@rspack/core@2.1.7(@module-federation/runtime-tools@2.8.1)(@swc/helpers@0.5.23))(react-native@0.86.2(@babel/core@7.29.7(supports-color@8.1.1))(@react-native-community/cli@20.2.0(supports-color@8.1.1)(typescript@6.0.3))(@react-native/jest-preset@0.86.2(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.8)(supports-color@8.1.1))(@react-native/metro-config@0.86.2(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(@types/react@19.2.18)(react@19.2.8)(supports-color@8.1.1))(supports-color@8.1.1)(webpack@5.109.2))
       super-app-showcase-sdk:
         specifier: workspace:*
         version: link:../sdk
@@ -565,6 +571,9 @@ importers:
       eslint:
         specifier: 'catalog:'
         version: 9.39.5(jiti@2.4.2)(supports-color@8.1.1)
+      repack-atlas:
+        specifier: file:../../../repack-atlas
+        version: file:../repack-atlas(@callstack/repack@5.3.0(@babel/core@7.29.7(supports-color@8.1.1))(@module-federation/enhanced@2.8.1(@rspack/core@2.1.7(@module-federation/runtime-tools@2.8.1)(@swc/helpers@0.5.23))(typescript@6.0.3)(webpack@5.109.2))(@rspack/core@2.1.7(@module-federation/runtime-tools@2.8.1)(@swc/helpers@0.5.23))(react-native@0.86.2(@babel/core@7.29.7(supports-color@8.1.1))(@react-native-community/cli@20.2.0(supports-color@8.1.1)(typescript@6.0.3))(@react-native/jest-preset@0.86.2(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.8)(supports-color@8.1.1))(@react-native/metro-config@0.86.2(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(@types/react@19.2.18)(react@19.2.8)(supports-color@8.1.1))(supports-color@8.1.1)(webpack@5.109.2))
       super-app-showcase-sdk:
         specifier: workspace:*
         version: link:../sdk
@@ -641,6 +650,9 @@ importers:
       eslint:
         specifier: 'catalog:'
         version: 9.39.5(jiti@2.4.2)(supports-color@8.1.1)
+      repack-atlas:
+        specifier: file:../../../repack-atlas
+        version: file:../repack-atlas(@callstack/repack@5.3.0(@babel/core@7.29.7(supports-color@8.1.1))(@module-federation/enhanced@2.8.1(@rspack/core@2.1.7(@module-federation/runtime-tools@2.8.1)(@swc/helpers@0.5.23))(typescript@6.0.3)(webpack@5.109.2))(@rspack/core@2.1.7(@module-federation/runtime-tools@2.8.1)(@swc/helpers@0.5.23))(react-native@0.86.2(@babel/core@7.29.7(supports-color@8.1.1))(@react-native-community/cli@20.2.0(supports-color@8.1.1)(typescript@6.0.3))(@react-native/jest-preset@0.86.2(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.8)(supports-color@8.1.1))(@react-native/metro-config@0.86.2(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(@types/react@19.2.18)(react@19.2.8)(supports-color@8.1.1))(supports-color@8.1.1)(webpack@5.109.2))
       super-app-showcase-sdk:
         specifier: workspace:*
         version: link:../sdk
@@ -3824,6 +3836,7 @@ packages:
   eslint@9.39.5:
     resolution: {integrity: sha512-DgZS62aPLXKlnxILS/AYCoRvHaZeXceIzlXPkkGGzJWSow1aEk0lbTlxUSlyjC8jcaKxAdOnTDz+o1JFSBsyjw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
     peerDependencies:
       jiti: '*'
@@ -5665,6 +5678,13 @@ packages:
   regjsparser@0.13.1:
     resolution: {integrity: sha512-dLsljMd9sqwRkby8zhO1gSg3PnJIBFid8f4CQj/sXx+7cKx+E7u0PKhZ+U4wmhx7EfmtvnA318oVaIkAB1lRJw==}
     hasBin: true
+
+  repack-atlas@file:../repack-atlas:
+    resolution: {directory: ../repack-atlas, type: directory}
+    engines: {node: '>=20'}
+    hasBin: true
+    peerDependencies:
+      '@callstack/repack': '*'
 
   require-directory@2.1.1:
     resolution: {integrity: sha512-fGxEI7+wsG9xrvdjsrlmL22OMTTiHRwAMroiEeMgq8gzoLC/PQr7RsRDSTLUg/bZAZtF+TVIkHc6/4RIKrui+Q==}
@@ -12916,6 +12936,10 @@ snapshots:
   regjsparser@0.13.1:
     dependencies:
       jsesc: 3.1.0
+
+  repack-atlas@file:../repack-atlas(@callstack/repack@5.3.0(@babel/core@7.29.7(supports-color@8.1.1))(@module-federation/enhanced@2.8.1(@rspack/core@2.1.7(@module-federation/runtime-tools@2.8.1)(@swc/helpers@0.5.23))(typescript@6.0.3)(webpack@5.109.2))(@rspack/core@2.1.7(@module-federation/runtime-tools@2.8.1)(@swc/helpers@0.5.23))(react-native@0.86.2(@babel/core@7.29.7(supports-color@8.1.1))(@react-native-community/cli@20.2.0(supports-color@8.1.1)(typescript@6.0.3))(@react-native/jest-preset@0.86.2(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.8)(supports-color@8.1.1))(@react-native/metro-config@0.86.2(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(@types/react@19.2.18)(react@19.2.8)(supports-color@8.1.1))(supports-color@8.1.1)(webpack@5.109.2)):
+    dependencies:
+      '@callstack/repack': 5.3.0(@babel/core@7.29.7(supports-color@8.1.1))(@module-federation/enhanced@2.8.1(@rspack/core@2.1.7(@module-federation/runtime-tools@2.8.1)(@swc/helpers@0.5.23))(typescript@6.0.3)(webpack@5.109.2))(@rspack/core@2.1.7(@module-federation/runtime-tools@2.8.1)(@swc/helpers@0.5.23))(react-native@0.86.2(@babel/core@7.29.7(supports-color@8.1.1))(@react-native-community/cli@20.2.0(supports-color@8.1.1)(typescript@6.0.3))(@react-native/jest-preset@0.86.2(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.8)(supports-color@8.1.1))(@react-native/metro-config@0.86.2(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(@types/react@19.2.18)(react@19.2.8)(supports-color@8.1.1))(supports-color@8.1.1)(webpack@5.109.2)
 
   require-directory@2.1.1: {}
 

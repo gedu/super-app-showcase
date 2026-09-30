@@ -67,6 +67,7 @@
     "jest": "catalog:",
     "prettier": "catalog:",
     "react-test-renderer": "catalog:",
+    "repack-atlas": "file:../../../repack-atlas",
     "super-app-showcase-sdk": "catalog:",
     "typescript": "catalog:"
   },

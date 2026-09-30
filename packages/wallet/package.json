@@ -35,6 +35,7 @@
     "@typescript-eslint/eslint-plugin": "catalog:",
     "@typescript-eslint/parser": "catalog:",
     "eslint": "catalog:",
+    "repack-atlas": "file:../../../repack-atlas",
     "super-app-showcase-sdk": "catalog:",
     "typescript": "catalog:"
   }
