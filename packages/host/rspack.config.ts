@@ -241,6 +241,7 @@ export default Repack.defineRspackConfig(({mode, platform}) => {
       new FederationManifestPlugin({
         name: 'host',
         manifest: true,
+        writeToDisk: true,
         shared,
         remotes,
       }),

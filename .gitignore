@@ -19,3 +19,6 @@ mprocs.log
 
 # Module Federation generated types
 @mf-types/
+
+# Federation manifest written to disk by FederationManifestPlugin (writeToDisk)
+repack-federation-manifest.json

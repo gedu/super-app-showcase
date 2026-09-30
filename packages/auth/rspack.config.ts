@@ -214,6 +214,7 @@ export default Repack.defineRspackConfig(({mode}) => {
       new FederationManifestPlugin({
         name: 'auth',
         manifest: true,
+        writeToDisk: true,
         shared,
         exposes,
         filename: 'auth.container.js.bundle',

@@ -215,6 +215,7 @@ export default Repack.defineRspackConfig(({mode, platform}) => {
       new FederationManifestPlugin({
         name: 'wallet',
         manifest: true,
+        writeToDisk: true,
         shared,
         remotes,
         exposes,

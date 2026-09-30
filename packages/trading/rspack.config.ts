@@ -208,6 +208,7 @@ export default Repack.defineRspackConfig(({mode, platform}) => {
       new FederationManifestPlugin({
         name: 'trading',
         manifest: true,
+        writeToDisk: true,
         shared,
         remotes,
         exposes,
