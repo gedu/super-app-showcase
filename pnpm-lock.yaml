@@ -5681,7 +5681,7 @@ packages:
 
   repack-atlas@file:../repack-atlas:
     resolution: {directory: ../repack-atlas, type: directory}
-    engines: {node: '>=20'}
+    engines: {node: '>=22.13'}
     hasBin: true
     peerDependencies:
       '@callstack/repack': '*'
