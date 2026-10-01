@@ -2,26 +2,22 @@
   "host": {
     "manifest": "packages/host/repack-federation-manifest.json",
     "root": "packages/host",
-    "command": "pnpm --filter host start",
     "port": 8081
   },
   "remotes": {
     "trading": {
       "manifest": "packages/trading/repack-federation-manifest.json",
       "root": "packages/trading",
-      "command": "pnpm --filter trading start",
       "port": 9001
     },
     "wallet": {
       "manifest": "packages/wallet/repack-federation-manifest.json",
       "root": "packages/wallet",
-      "command": "pnpm --filter wallet start",
       "port": 9002
     },
     "auth": {
       "manifest": "packages/auth/repack-federation-manifest.json",
       "root": "packages/auth",
-      "command": "pnpm --filter auth start",
       "port": 9003
     }
   }
