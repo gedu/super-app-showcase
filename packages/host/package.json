@@ -46,6 +46,7 @@
     "@babel/preset-env": "catalog:",
     "@babel/runtime": "catalog:",
     "@callstack/repack": "catalog:",
+    "@callstack/repack-atlas": "file:../../../repack-atlas",
     "@callstack/repack-plugin-reanimated": "5.3.0-canary-20260726211922",
     "@react-native-community/cli": "catalog:",
     "@react-native-community/cli-platform-android": "20.2.0",
@@ -67,7 +68,6 @@
     "jest": "catalog:",
     "prettier": "catalog:",
     "react-test-renderer": "catalog:",
-    "repack-atlas": "file:../../../repack-atlas",
     "super-app-showcase-sdk": "catalog:",
     "typescript": "catalog:"
   },

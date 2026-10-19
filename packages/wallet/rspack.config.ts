@@ -1,10 +1,10 @@
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import * as Repack from '@callstack/repack';
+import {FederationManifestPlugin} from '@callstack/repack-atlas/plugin';
+import {IntrospectionPlugin} from '@callstack/repack-atlas/introspection';
 import rspack from '@rspack/core';
 import {getSharedDependencies} from 'super-app-showcase-sdk';
-import {FederationManifestPlugin} from 'repack-atlas/plugin';
-import {IntrospectionPlugin} from 'repack-atlas/introspection';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);

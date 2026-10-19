@@ -26,6 +26,7 @@
   "devDependencies": {
     "@babel/core": "catalog:",
     "@callstack/repack": "catalog:",
+    "@callstack/repack-atlas": "file:../../../repack-atlas",
     "@react-native/babel-preset": "catalog:",
     "@react-native/eslint-config": "catalog:",
     "@react-native/typescript-config": "catalog:",
@@ -35,7 +36,6 @@
     "@typescript-eslint/eslint-plugin": "catalog:",
     "@typescript-eslint/parser": "catalog:",
     "eslint": "catalog:",
-    "repack-atlas": "file:../../../repack-atlas",
     "super-app-showcase-sdk": "catalog:",
     "typescript": "catalog:"
   }
